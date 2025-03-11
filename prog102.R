@@ -106,10 +106,11 @@ Alaskan_datetime("Harris", "2020-05-01", "2020-05-02")
 # folder as this file.)
 # Done
 
-# P10: Visualize Nuka Pass on July 1, 2018.  [[[ ERROR!!! ]]]
-plot_kefj(Alaskan_datetime("Nuka Pass", "2018-07-01 00:00", "2018-07-01 23:59"),
-          Alaskan_temperature("Nuka Pass", "2018-07-01 00:00", "2018-07-01 23:59"),
-          Alaskan_exposure("Nuka Pass", "2018-07-01 00:00", "2018-07-01 23:59"))
+# P10: Visualize Nuka Pass on July 1, 2018.
+plot_kefj(Alaskan_datetime("Nuka_Pass", "2018-07-01 00:00", "2018-07-01 23:59"),
+          Alaskan_temperature("Nuka_Pass", "2018-07-01 00:00", "2018-07-01 23:59"),
+          Alaskan_exposure("Nuka_Pass", "2018-07-01 00:00", "2018-07-01 23:59"))
+
 
 # P11: Save a copy of the Nuka Pass plot as "nuka_pass_2018-07-01.png" in this
 # repo
